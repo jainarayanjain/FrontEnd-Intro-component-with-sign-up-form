@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+.card{
+    width: 800px;
+    height: 500px;
+    background-color: hsl(0, 100%, 74%);
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.card .text{
+    position:absolute;
+    top: 40%;
+    left: 10%;
+    color: #fff;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.card .lower-text{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color:#fff;
+    font-size: small;
+}
+
+.card .try-btn{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    color: #fff;
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card .try-btn span{
+    color: hsl(246, 25%, 77%);
+}
+
+.card .form-div{
+    position:absolute;
+    top: 15%;
+    right: 2%;
+    width:300px;
+    height:400px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.card .form-div .claim-btn{
+    width: 220px;
+    position: absolute;
+    top:70%;
+    right: 25%;
+    color: #fff;
+    padding: 10px 42px 10px 42px;
+    background-color:hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-right: -25px;
+}
+
+
+.card .bottom-text{
+    position: absolute;
+    top:85%;
+    right: 5%;
+    color: black;
+    font-size: 8px;
+}
+
+.card .form-div .input-field{
+    border-color:red;
+}
+.card .form-div .input-field input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 250px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.card .form-div .input-field.success input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 250px;
+    padding: 4px;
+    border-radius: 2px;
+    border-color: hsl(154, 59%, 51%);
+}
+
+.card .form-div .input-field.error input{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    padding: 4px;
+    border-radius: 4px;
+    border-color: red;
+}
+
+.card .form-div .input-field.error span{
+    color: red;
+    display: block;
+    font-size: 10px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.card .bottom-text span{
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+
+.card .form-div .input-field.error .fa{
+    position:absolute;
+    top:6%;
+    right: 25%;
+    margin-right: -20px;
+}
+
+
+.card .form-div .input-field.error .error-icon2{
+    position:absolute;
+    top:19%;
+    right: 25%;
+    margin-right: -20px;
+}
+
+.card .form-div .input-field.error .error-icon3{
+    position:absolute;
+    top:31%;
+    right: 25%;
+    margin-right: -20px;
+}
+
+.card .form-div .input-field.error .error-icon4{
+    position:absolute;
+    top: 44%;
+    right: 25%;
+    margin-right: -20px;
+}
