@@ -121,31 +121,14 @@
     font-weight: bold;
 }
 
-.card .form-div .input-field.error .fa{
-    position:absolute;
-    top:6%;
-    right: 25%;
-    margin-right: -20px;
+.card .form-div .input-field.success span{
+    color: green;
+    /* display: block; */
+    font-size: 10px;
+    text-align: right;
+    margin-right: 20px;
 }
 
-
-.card .form-div .input-field.error .error-icon2{
-    position:absolute;
-    top:19%;
-    right: 25%;
-    margin-right: -20px;
-}
-
-.card .form-div .input-field.error .error-icon3{
-    position:absolute;
-    top:31%;
-    right: 25%;
-    margin-right: -20px;
-}
-
-.card .form-div .input-field.error .error-icon4{
-    position:absolute;
-    top: 44%;
-    right: 25%;
-    margin-right: -20px;
+.card .form-div .input-field span{
+    display: none;
 }
